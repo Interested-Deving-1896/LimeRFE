@@ -11,7 +11,7 @@ Introduction
    developer/index
    advanced/index
 
-.. figure:: images/LimeRFE_v1.0_3D.jpg
+.. figure:: images/LimeRFE_v1.0_3D.png
    :alt: LimeSDR XTRX v1.0 board
    :align: center
    :width: 600
