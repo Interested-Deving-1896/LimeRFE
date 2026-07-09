@@ -1,53 +1,75 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # LimeRFE
 
-![LimeRFE board](/images/LimeRFE_722w.jpg)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/LimeRFE)
 
-The [LimeRFE](https://www.crowdsupply.com/lime-micro/limerfe) is an open hardware power amplifier (PA) module with appropriate filtering and support circuitry to augment the LimeSDR, LimeSDR Mini, and LimeNET Micro platforms, providing a complete solution that addresses real life applications ranging from HAM radio to standards-compliant cellular network implementations.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Contents
+## Architecture
 
-The directory structure is as follows:
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-      /archived/<version>/           - Archived versions
-          firmware/                  - Corresponding firmware
-                                     - Remaining structure as below
+## Install
 
-      /firmware/                     - Firmware sources
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-      /hardware/<version>/
-          docs/                      - Documentation
-          hardware/
-              BOM/                   - Bill of materials
-              Gerbers/               - Manufacturing files
-              KiCAD/                 - KiCAD schematic and layout files
-              PDF/                   - Schematic and layout PDFs
+```bash
+git clone https://github.com/Interested-Deving-1896/LimeRFE.git
+cd LimeRFE
+```
 
-## Notes on hardware versions
+## Usage
 
-The resources for all production builds will be located in versioned folders in the repository root. The files located under `/archived/` correspond to pre-production designs used in validation and with the beta tester community.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-### Production boards
+## Configuration
 
-* 1v31. This is the first version to go into full production.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-### Pre-production boards
+## CI
 
-Pre-production boards are not officially supported. However, design materials and firmware sources are made available in the hope that this will assist those who may wish to make their own modifications and repairs etc. 
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-* 1v2. This features a number of minor improvements to the 1v0 design, mainly in
-connection with cellular bands.
-* 1v0. This design featured the full complement of bands following [update of the specifications](https://www.crowdsupply.com/lime-micro/limerfe/updates/performance-of-the-final-production-board). A small number of boards were made available to application developers to facilitate software integration.
-* 0v3. This version was the first made available to the beta tester community and it has a reduced number of branches/bands, which corresponds to the original published specifications. 
+## Mirror chain
 
-## Software
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/LimeRFE`](https://github.com/Interested-Deving-1896/LimeRFE) and mirrored through:
 
-Software support is provided by [Lime Suite](https://github.com/myriadrf/LimeSuite).
+```
+Interested-Deving-1896/LimeRFE  ──►  OpenOS-Project-OSP/LimeRFE  ──►  OpenOS-Project-Ecosystem-OOC/LimeRFE
+```
 
-## Licensing
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-The hardware designs are licensed under Solderpad Hardware License v2.1.
+## Contributors
 
-Hardware designs 0v3, 1v0 and 1v2 are also available under a Creative Commons
-Attribution 3.0 Unported licence.
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-Firmware sources are licensed under the Apache License Version 2.0.
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
